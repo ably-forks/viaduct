@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // Directory manages a directory on the filesystem

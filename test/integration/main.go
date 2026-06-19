@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/surminus/viaduct"
-	"github.com/surminus/viaduct/resources"
+	"github.com/ably-forks/viaduct"
+	"github.com/ably-forks/viaduct/resources"
 )
 
 // This configuration exercises viaduct resources inside a container, and is

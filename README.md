@@ -1,4 +1,4 @@
-# Viaduct [![CI](https://github.com/surminus/viaduct/actions/workflows/ci.yaml/badge.svg)](https://github.com/surminus/viaduct/actions/workflows/ci.yaml) [![Go Reference](https://pkg.go.dev/badge/github.com/surminus/viaduct.svg)](https://pkg.go.dev/github.com/surminus/viaduct)
+# Viaduct [![CI](https://github.com/ably-forks/viaduct/actions/workflows/ci.yaml/badge.svg)](https://github.com/ably-forks/viaduct/actions/workflows/ci.yaml) [![Go Reference](https://pkg.go.dev/badge/github.com/ably-forks/viaduct.svg)](https://pkg.go.dev/github.com/ably-forks/viaduct)
 
 A configuration management framework written in Go.
 
@@ -18,7 +18,7 @@ Create a project in `main.go` and create a new manifest:
 
 ```go
 import (
-        "github.com/surminus/viaduct"
+        "github.com/ably-forks/viaduct"
 )
 
 func main() {
@@ -28,14 +28,14 @@ func main() {
 ```
 
 A standard set of resources are found in the
-[resources](https://pkg.go.dev/github.com/surminus/viaduct/resources) package.
+[resources](https://pkg.go.dev/github.com/ably-forks/viaduct/resources) package.
 
 To add them:
 
 ```go
 import (
-        "github.com/surminus/viaduct"
-        "github.com/surminus/viaduct/resources"
+        "github.com/ably-forks/viaduct"
+        "github.com/ably-forks/viaduct/resources"
 )
 
 func main() {
@@ -124,7 +124,7 @@ See the example in the [examples](examples/basic) directory.
 
 ## Resources
 
-The [resources](https://pkg.go.dev/github.com/surminus/viaduct/resources)
+The [resources](https://pkg.go.dev/github.com/ably-forks/viaduct/resources)
 package covers the common building blocks:
 
 - `File`, `Directory` and `Link` for files, directories and symlinks
@@ -167,8 +167,8 @@ We can then generate the data to create our file:
 import (
         "embed"
 
-        "github.com/surminus/viaduct"
-        "github.com/surminus/viaduct/resources"
+        "github.com/ably-forks/viaduct"
+        "github.com/ably-forks/viaduct/resources"
 )
 
 //go:embed templates
@@ -199,8 +199,8 @@ attributes under the `Attribute` variable:
 import (
         "fmt"
 
-        "github.com/surminus/viaduct"
-        "github.com/surminus/viaduct/resources"
+        "github.com/ably-forks/viaduct"
+        "github.com/ably-forks/viaduct/resources"
 )
 
 func main() {
@@ -236,7 +236,7 @@ func main() {
 ## Using custom resources
 
 Custom resources just need to implement the
-[`ResourceAttributes`](https://pkg.go.dev/github.com/surminus/viaduct#ResourceAttributes)
+[`ResourceAttributes`](https://pkg.go.dev/github.com/ably-forks/viaduct#ResourceAttributes)
 interface.
 
 See the example custom resource in the

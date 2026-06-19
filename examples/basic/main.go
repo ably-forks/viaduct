@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/surminus/viaduct"
-	"github.com/surminus/viaduct/resources"
+	"github.com/ably-forks/viaduct"
+	"github.com/ably-forks/viaduct/resources"
 )
 
 func main() {

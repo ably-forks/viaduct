@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // Archive extracts a tar or zip archive into a destination directory.

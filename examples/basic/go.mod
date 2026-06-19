@@ -2,7 +2,7 @@ module basic
 
 go 1.26.0
 
-require github.com/surminus/viaduct v0.4.0
+require github.com/ably-forks/viaduct v0.6.1
 
 require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect

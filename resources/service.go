@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // Service manages a systemd service, allowing it to be enabled or disabled

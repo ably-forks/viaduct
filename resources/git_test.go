@@ -5,13 +5,13 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 func newTestGit(t *testing.T, path string) *Git {
 	g := &Git{
 		Path: path,
-		URL:  "https://github.com/surminus/viaduct",
+		URL:  "https://github.com/ably-forks/viaduct",
 	}
 
 	err := g.PreflightChecks(testLogger)

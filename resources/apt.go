@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 type AptFormat string

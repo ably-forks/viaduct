@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 type Execute struct {

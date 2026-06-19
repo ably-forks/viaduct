@@ -7,7 +7,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // Line manages a single line within a file, for editing files that are not

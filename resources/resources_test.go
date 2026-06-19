@@ -1,6 +1,6 @@
 package resources
 
-import "github.com/surminus/viaduct"
+import "github.com/ably-forks/viaduct"
 
 var testLogger *viaduct.Logger
 

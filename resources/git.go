@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 )

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // User creates a user. If the user already exists, only the supplementary

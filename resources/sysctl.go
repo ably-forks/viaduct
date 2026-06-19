@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // Sysctl writes a sysctl configuration file to /etc/sysctl.d and applies

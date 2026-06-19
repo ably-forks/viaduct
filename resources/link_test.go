@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 func newTestLink(t *testing.T, source, dest string) *Link {

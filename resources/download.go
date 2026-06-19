@@ -7,7 +7,7 @@ import (
 	"os"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // Download will fetch data from the given URL, and write it to the given path.

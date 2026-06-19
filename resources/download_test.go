@@ -6,7 +6,7 @@ import (
 
 	"github.com/h2non/gock"
 	"github.com/stretchr/testify/assert"
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 func newTestDownload(t *testing.T, url, path string) *Download {

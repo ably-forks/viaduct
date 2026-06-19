@@ -1,4 +1,4 @@
-module github.com/surminus/viaduct
+module github.com/ably-forks/viaduct
 
 go 1.26.0
 

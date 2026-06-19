@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 func newTestFile(t *testing.T, path string) *File {

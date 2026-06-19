@@ -9,7 +9,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // File manages files on the filesystem

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/surminus/viaduct"
+	"github.com/ably-forks/viaduct"
 )
 
 // pathMutexes serialises resources that do read-modify-write on a shared
